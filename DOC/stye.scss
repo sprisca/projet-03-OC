@@ -1,0 +1,314 @@
+body 
+    width: 98%
+    margin: auto
+    font-size: 10px
+  
+  header {
+    padding: 3%;
+    background-color: #569C87;
+    color: #FACA43;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    font-family: "helvetica"; }
+  
+
+  #ContenairePageAccueil {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+}
+    
+  
+  
+  .elementContenairePageAccueil {
+    
+   
+    display: flex;
+    width: 50%;
+    margin: 5%;
+    height: 2%;
+    box-shadow:2px 2px 0px 0px #b5b6b5;
+    box-shadow: 0px 0px 4px 4px #b8b9b8;
+
+  }
+    
+  
+
+  .elementContenairePageAccueil img {
+    width: 20%;
+    color: lightpink;
+  
+  }
+    
+  
+  
+  .elementContenairePageAccueil a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none; }
+  
+  #decoMenuEnchantee {
+    background-color: #FADFDB;
+    color: #2D0E14; }
+
+    #decoMenuEnchantee .spanMenuEnchanteeBas {
+      color: #263238;
+      font-family: "helvetica";
+      font-size: 1.2em; }
+  
+
+  #decoMenuChic {
+    background-color: #FDF5FF; }
+
+    #decoMenuChic .spanMenuChicBas {
+      color: #B75D1E;
+      margin-top: 2%;
+      font-family: "Croissant One", cursive;
+      font-size: 1.2em; }
+  
+  #decoMenuDelice {
+    background-color: #F8F8F9; }
+    #decoMenuDelice .spanMenuDeliceBas {
+      color: #156FFA;
+      margin-top: 2%;
+      font-family: 'Reenie Beanie', cursive;
+      font-size: 1.4em; }
+  
+  #decoMenuGout {
+    background-color: #FDFFFD; }
+
+    #decoMenuGout .spanMenuGoutBas {
+      color: #64B645;
+      margin-top: 2%;
+      font-family: "Dancing Script";
+      font-size: 1.2em; }
+  
+
+  .spanMenuEnchanteeTitre {
+    color: #263238;
+    font-family: 'Ma Shan Zheng', cursive; }
+
+    .spanMenuEnchanteeTitre:hover {
+      opacity: 0.6;
+      transition-duration: .3s;
+      transform: scale(1.4); }
+  
+  
+  #ContenuPageMenuEnchantee h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal; }
+  
+  
+  .spanMenuChicTitre {
+    font-family: "Croissant One", cursive;
+    background-image: radial-gradient(circle at top left, #C77427, #8E57FC);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; }
+    .spanMenuChicTitre:hover {
+      opacity: 0.6;
+      transition-duration: .3s;
+      transform: scale(1.4); }
+  
+  
+  #ContenuPageMenuChic h1 {
+    font-family: "Croissant One", cursive;
+    background-image: radial-gradient(circle at top left, #C77427, #8E57FC);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal; }
+  
+  
+  .spanMenuDeliceTitre {
+    font-family: "Dancing Script";
+    background-image: linear-gradient(to right, #1541DE, #55B3F8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; }
+
+    .spanMenuDeliceTitre:hover {
+      opacity: 0.6;
+      transition-duration: .3s;
+      transform: scale(1.4); }
+  
+  
+  #ContenuPageMenuDelice h1 {
+    font-family: "Dancing Script";
+    background-image: linear-gradient(to right, #1541DE, #55B3F8);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal; }
+  
+  
+  .spanMenuGoutTitre {
+    font-family: "Kaushan Script", cursive;
+    background-image: linear-gradient(to right, #38842C, #AFF76C);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent; }
+    
+
+    .spanMenuGoutTitre:hover {
+      opacity: 0.6;
+      transition-duration: .3s;
+      transform: scale(1.4); }
+  
+  
+  #ContenuPageMenuPalette h1 {
+    font-family: "Kaushan Script", cursive;
+    background-image: linear-gradient(to right, #38842C, #AFF76C);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal; }
+  
+  
+  #ContenuPageMenuEnchantee .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2) {
+    font-weight: bolder;
+    position: relative; }
+    
+    #ContenuPageMenuEnchantee .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):after {
+      content: '';
+      width: 0;
+      height: 3px;
+      display: block;
+      margin-top: 2px;
+      transition: width .3s ease; }
+    
+    #ContenuPageMenuEnchantee .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):hover:after {
+      width: 100%;
+      left: 0;
+      background: #000000; }
+  
+  
+  #ContenuPageMenuPalette .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2) {
+    font-weight: bolder;
+    position: relative; }
+   
+    #ContenuPageMenuPalette .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):after {
+      content: '';
+      width: 0;
+      height: 3px;
+      display: block;
+      margin-top: 2px;
+      transition: width .3s ease; }
+   
+    #ContenuPageMenuPalette .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):hover:after {
+      width: 100%;
+      left: 0;
+      background: #48971F; }
+  
+  
+  #ContenuPageMenuDelice .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2) {
+    font-weight: bolder;
+    position: relative; }
+   
+    #ContenuPageMenuDelice .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):after {
+      content: '';
+      width: 0;
+      height: 3px;
+      display: block;
+      margin-top: 2px;
+      transition: width .3s ease; }
+   
+    #ContenuPageMenuDelice .element_contenaireTitre-detailPageMenuSeul:nth-last-child(2):hover:after {
+      width: 100%;
+      left: 0;
+      background: #0570F3; }
+  
+ 
+  #contenaireBoutonProchainement {
+    width: 100%;
+    margin-top: 2%; }
+  
+ 
+  .bouton {
+    width: 25%;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: #569C87;
+    border-radius: 5%;
+    color: #FACA43;
+    font-size: 1.3em;
+    font-family: "helvetica"; }
+  
+ 
+  .element1-boutonProchainement {
+    width: 70%;
+    float: left; }
+  
+ 
+  .loading:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    animation: ellipsis steps(4, end) 900ms infinite;
+    content: "\2026";
+   
+    width: 0px; }
+  
+  
+  @keyframes ellipsis {
+    to {
+      width: 1.25em; } }
+  
+  
+  footer {
+    margin-top: 2%;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-around;
+    font-family: "helvetica";
+    background-color: #569C87; }
+    
+    footer a {
+      text-decoration: none;
+      color: #FACA43; }
+  
+ 
+  .elementFooter {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.2em; }
+
+   nav a {
+     text-decoration: none;
+     color: #000000;
+     font-size: 12px;
+
+   } 
+
+   #contenupageMenuenchantee {
+     
+   }
+     
+  
+  
+ 
+  
+  
+  
+  
+ 
+    

@@ -1,0 +1,43 @@
+@media only screen and (min-width: 992px) {
+  
+    body {
+      width: 60%;
+      margin: auto;
+      font-size: 10px; }
+    
+    #contenairePageAccueil {
+      width: 80%;
+      margin: auto; }
+    
+    .elementContenairePageAccueil {
+      width: 28vh;
+      height: 36vh;
+      margin: 2%; }
+    
+    .bouton {
+      width: 20%; } }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    
+    body {
+      width: 70%;
+      margin: auto; }
+    
+    #contenairePageAccueil {
+      width: 70%;
+      margin: auto; }
+   
+    .elementContenairePageAccueil {
+      width: 32vh;
+      height: 40vh;
+      margin: 2%;
+      font-size: 1.6em; }
+    
+    #ContenuPageMenuPalette, #ContenuPageMenuEnchantee, #ContenuPageMenuChic, #ContenuPageMenuDelice {
+      width: 60%; }
+    
+    .bouton {
+      width: 15%; } }
+  
+    
